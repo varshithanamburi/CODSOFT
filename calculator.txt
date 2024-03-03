@@ -1,0 +1,21 @@
+n1=int(input("Enter 1st number"))
+n2=int(input("Enter 2nd number"))
+print("=====Simple Calculator===========")
+print("\t 1. Addition")
+print("\t 2. Subtraction")
+print("\t 3. Multiplication")
+print("\t 4. Division")
+print("\t 5. modulo")
+choice=int(input('Enter your choice between -(1 to 5):'))
+if choice==1:
+    print(n1+n2)
+elif choice==2:
+    print(n1-n2)
+elif choice==3:
+    print(n1*n2)
+elif choice==4:
+    print(n1/n2)
+elif choice==5:
+        print(n1%n2)
+else:
+    print('Invalid choice try again......!')
